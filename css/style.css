@@ -1,0 +1,46 @@
+* {
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration:none;
+        }
+        ul,ol{
+            list-style-type: none;
+        }
+        
+
+        
+        .container {
+            width: 1320px;
+            margin: 0 auto;
+            
+        }
+        .headerPart{
+            padding: 40px 0;
+            background: teal;
+        }
+        .menu{
+            background: tomato;
+        }
+        .menu ul{
+            display: flex;
+            justify-content: center;
+            column-gap: 25px;
+        }
+        .menu ul li a{
+            color: aliceblue;
+            font-size: 25px;
+            text-transform: uppercase;
+            transition: 0.4s;
+            font-family: "Roboto",sans-serif;
+            font-weight: 900;
+            letter-spacing: 2px;
+
+        }
+        .menu ul li a:hover {
+            color :teal;
+        }
+
